@@ -1,0 +1,21 @@
+[theme]
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#F4F7FC"
+secondaryBackgroundColor = "#EEF2F9"
+textColor = "#0B1B3F"
+borderColor = "#E2E8F2"
+showWidgetBorder = true
+baseRadius = "0.75rem"
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+chartCategoricalColors = ["#2563EB", "#06B6D4", "#7C3AED", "#10B981", "#F59E0B", "#EF4444", "#64748B"]
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F7FC"
+
+[server]
+maxUploadSize = 50
+
+[client]
+toolbarMode = "minimal"

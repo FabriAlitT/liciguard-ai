@@ -1,0 +1,22 @@
+# Secretos: NUNCA subir a GitHub
+.streamlit/secrets.toml
+.env
+
+# Entornos de Python (no se suben ni se comparten en el zip)
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos: se suben solo los dos archivos que usa la app publicada
+data/bases/*.pdf
+data/bases/revision.csv
+data/ocds/*.jsonl.gz
+data/ocds/historial_excluidos_para_revisar.csv
+data/bases/descargas.csv
+data/bases/resultados_liciguard.csv
+data/bases/enlaces.html
+data/bases/reporte.html
+data/bases/revisar_a_mano/

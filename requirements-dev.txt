@@ -1,0 +1,4 @@
+# Solo para desarrollar y probar (no hace falta para usar la app ni en Streamlit Cloud)
+-r requirements.txt
+pytest~=9.1.1
+ipykernel~=7.4.0
